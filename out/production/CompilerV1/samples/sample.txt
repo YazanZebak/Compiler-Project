@@ -1,0 +1,14 @@
+<html>
+<head>
+    <nav class="globalNav" data-module="nav">
+        <header>
+            <div>
+                <ul class="navProvider" cp-for="x in [1,4,5];i=index">
+                    <li>{{i}} : {{i + x - 3}}</li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+</head>
+<body></body>
+</html>
